@@ -1,0 +1,50 @@
+{
+    "signup": {
+        "name": "Gustavo Bueno",
+        "cpf": "00000000001",
+        "email": "gustavoriedel2202@gmail.com",
+        "whats": "55999999999",
+        "adress": {
+            "postalcode": "98780200",
+            "street": "Rua Presidente Castelo Branco",
+            "number": "286",
+            "details": "casa rosa",
+            "district": "Centro",
+            "city_uf": "Santa Rosa/RS"
+        },
+        "delivery_method": "Moto",
+        "cnh": "cnh-digital.jpg"
+    },
+    "cpf_inv": {
+        "name": "Bozonaro",
+        "cpf": "0AA000000AA",
+        "email": "bozonaro@gmail.com",
+        "whats": "55999999999",
+        "adress": {
+            "postalcode": "98780200",
+            "street": "Rua Presidente Castelo Branco",
+            "number": "286",
+            "details": "casa rosa",
+            "district": "Centro",
+            "city_uf": "Santa Rosa/RS"
+        },
+        "delivery_method": "Moto",
+        "cnh": "cnh-digital.jpg"
+    },
+    "email_inv": {
+        "name": "Gustavo Bueno",
+        "cpf": "00000000001",
+        "email": "gustavoriedel2202.com.br",
+        "whats": "55999999999",
+        "adress": {
+            "postalcode": "98780200",
+            "street": "Rua Presidente Castelo Branco",
+            "number": "286",
+            "details": "casa rosa",
+            "district": "Centro",
+            "city_uf": "Santa Rosa/RS"
+        },
+        "delivery_method": "Moto",
+        "cnh": "cnh-digital.jpg"
+    }
+}
