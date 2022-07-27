@@ -1,6 +1,7 @@
 import signupPage from '../pages/SignupPage' // é minusculo para já vir instânciada
 import signupFactory from '../factories/SignupFactory'
-describe('Cadastro', () => {
+
+describe('Signin', () => {
 
     // before(function(){
     //     cy.log('É executado uma única vez ANTES de todos casos de testes')
@@ -24,7 +25,7 @@ describe('Cadastro', () => {
     //     })
     // })
 
-    it('Usuário deve se tornar um deliver', function () {
+    it('User must be a deliver', function () {
 
         var deliver = signupFactory.deliver()
 
@@ -35,7 +36,7 @@ describe('Cadastro', () => {
         signupPage.modalContentShouldBe(expectedMessage)
     })
 
-    it('CPF incorreto', function () {
+    it('Incorrect document', function () {
 
         var deliver = signupFactory.deliver()
         deliver.cpf = '123456AAABC'
@@ -46,7 +47,7 @@ describe('Cadastro', () => {
         signupPage.alertMessageShouldBe('Oops! CPF inválido')
     })
 
-    it('Email incorreto', function () {
+    it('Incorrect email', function () {
 
         var deliver = signupFactory.deliver()
         deliver.email = 'user.com.br'
