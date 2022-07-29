@@ -5,3 +5,5 @@ describe('Home page', () => {
         cy.get('#page-home main h1').should('have.text', 'Seja um parceiro entregador pela Buger Eats')
     })
 })
+
+//testa se o aplicativo está online, redimensiona a tela para teste e visita a página.
